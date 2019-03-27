@@ -1,0 +1,126 @@
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.bianzengcha{
+  width: 450px;
+  height: 399px;
+  padding: 0;
+  border-radius:15px ;
+}
+.shanzeng{
+  width: 350px;
+  height: 164px;
+  padding: 0;
+  font-size: 15px;
+  border-radius:15px ;
+}
+.bianzengcha .el-message-box__content,
+.shanzeng .el-message-box__content
+{
+  padding: 0;
+}
+.bianzengcha .el-message-box__header,
+.shanzeng .el-message-box__header
+{
+  padding: 15px 15px 15px;
+}
+.bianzengcha .el-message-box__content,
+.shanzeng .el-message-box__content
+{
+  border-top: 1px solid rgba(204, 204, 204, 0.51);
+}
+.bianzengcha .el-message-box__btns
+{
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.bianzengcha{
+  height: 53.68%;
+}
+.zenjia{
+  font-size: 14px;
+}
+.zenjia input{
+  width: 52.914%;
+  height: 25px;
+}
+.zenjia div
+{
+  padding-top: 20px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+.zenjia textarea{
+  width: 79.630759%;
+  height: 74px;
+  resize:none
+}
+.zenjia select{
+  width: 31.7%;
+  height: 25px;
+}
+.miaoshu{
+  margin-left: 1px;
+}
+.miaoshu span,
+.miaoshu textarea,
+.tijiao span,
+.tijiao p
+{
+  float: left;
+}
+.tijiao span{
+  margin-top: 3px;
+}
+.tijiao p{
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 31px;
+  background-color: #409EFF;
+  text-align: center;
+  line-height: 31px;
+  color: white;
+  font-size: 13px;
+  border-radius: 3px;
+}
+.tijiao p input{
+  display: inline-block;
+  position: absolute;
+  width: 80px;
+  height: 31px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.shanchu{
+  padding: 20px 36px 20px 36px;
+}
+.shanchu p{
+  margin-left: 8px;
+}
+.shanchu img{
+  width: 25px;
+  height: 25px;
+}
+.shanchu img,
+.shanchu p
+{
+  float: left;
+}
+.shanzeng .el-message-box__btns{
+  padding-bottom: 15px;
+}
+.el-message-box__title{
+  width: 96.430967%;
+}
+.tijiao img{
+  width: 46px;
+  height: 42px;
+  margin-top: -7px;
+}

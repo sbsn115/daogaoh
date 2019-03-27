@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*自己写的弹框样式*/
+.modelContent {
+  background-color: #fff;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.11);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -52%);
+  box-sizing: border-box;
+}
+
+.modal_header {
+  color: #684029;
+  text-align: left;
+  border-bottom: .5px solid rgba(204, 204, 204, 0.47);
+  padding: 15px;
+}
+
+.closeBtn {
+  font-style: normal;
+  color: #909399;
+  position: absolute;
+  top: 18px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.closeBtn:hover {
+  color: #409eff;
+}
+
+#productForm {
+  text-align: left;
+  padding: 10px 30px 20px;
+}
+
+#productForm #productText,
+#productForm #productPrice,
+#productForm #productTp {
+  height: 25px;
+  width: 200px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  outline: none;
+  border: .5px solid rgba(0, 0, 0, 0.4);
+}
+
+#productForm label,
+#productForm #productTp {
+  color: #684029;
+  font-size: 14px;
+}
+
+#productForm #file {
+  margin: 0 0 15px 10px;
+}
+
+#productForm #productDescription {
+  width: 253px;
+  resize: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px;
+  float: right;
+  height: 80px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.btn_box button {
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  outline: none;
+  border: 1px solid #dcdfe6;
+  background-color: #fff;
+  float: right;
+  cursor: pointer;
+  transition: all .3s;
+  border-radius: 3px;
+}
+
+.btn_box button:nth-of-type(2) {
+  margin-right: 10px;
+}
+
+.btn_box button:nth-of-type(1) {
+  background-color: #409eff;
+  border-color: #409eff;
+  color: #fff;
+}
+
+.btn_box button:nth-of-type(1):hover {
+  background-color: rgba(64, 158, 255, 0.81);
+}
+
+.btn_box button:nth-of-type(2):hover {
+  background-color: #ecf5ff;
+}
+
+.prompt {
+  color: #FF0000;
+  font-size: 14px;
+  text-align: center;
+  display: none;
+}
+
+
+
+/*查看模态框*/
+
+.addProductModel #productForm2 #productText,
+.addProductModel #productForm2 #productPrice,
+.addProductModel #productForm2 #productTp {
+  height: 25px;
+  width: 200px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  outline: none;
+  color: #000;
+}
+.addProductModel #productForm2 label,
+.addProductModel #productForm2 #productTp option
+{
+  color: #684029;
+}
+.addProductModel #productForm2 #productImg {
+  margin-left: 10px;
+}
+
+.addProductModel #productForm2 #productDescription {
+  width: 286px;
+  resize:none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px;
+  float: right;
+  height: 80px;
+  color: #000;
+}
+
+.addProductModel {
+  border-radius: 15px;
+  padding: 0 0 10px;
+}
+.addProductModel .el-message-box__header .el-message-box__title span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #684029;
+}
+
+.addProductModel .el-message-box__content
+{
+  border-top: 1px solid rgba(204, 204, 204, 0.51);
+  padding: 15px;
+}
+
+.addProductModel .el-message-box__content p {
+  padding: 0  15px;
+}
+.addProductModel .el-button--default {
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0;
+}
+.addProductModel .promptText {
+  color: #ff0000;
+  font-size: 12px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+/*删除框*/
+
+.deleteProduct {
+  border-radius: 10px;
+  width: 380px;
+}
+.deleteProduct .el-message-box__header {
+  border-bottom: 1px solid rgba(204, 204, 204, 0.55);
+  padding: 15px;
+}
+.deleteProduct .el-message-box__header .el-message-box__title span{
+  color: #684029;
+  font-size: 18px;
+}
+.deleteProduct .el-message-box__btns button{
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  padding: 0;
+}
+
+.deleteProduct .del{
+  padding: 20px 36px 20px 36px;
+}
+.deleteProduct .del p{
+  margin-left: 8px;
+}
+.deleteProduct .del img{
+  width: 25px;
+  height: 25px;
+}
+.deleteProduct .del img,
+.deleteProduct .del p
+{
+  float: left;
+}
+
+
+
+

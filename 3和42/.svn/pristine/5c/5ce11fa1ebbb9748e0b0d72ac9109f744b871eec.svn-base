@@ -1,0 +1,78 @@
+#productForm7 #productText,
+#productForm7 #productPrice,
+#productForm7 #productTp,.biangeren #zhuzhi,.biangeren #phone,.biangeren #shengri,.biangeren #vip,
+.chageren #zhuzhi,.chageren #phone,.chageren #shengri,.chageren #vip,.chageren #jiguanxi,.chageren #jidata,.chageren #jiphone,.chageren #jiname,.youhuijuan .miaoshu textarea,.youhuijuan #productText,
+.youhuijuan #zhuzhi,.youhuijuan #shengri,.youhuijuan #vip,.youhuijuan #juanhao
+{
+  height: 25px;
+  width: 250px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  outline: none;
+}
+.biangeren,
+.chageren,
+.youhuijuan
+{
+  border-radius: 15px;
+}
+.biangeren  .el-message-box__header .el-message-box__title span,
+.chageren   .el-message-box__header .el-message-box__title span,
+.youhuijuan .el-message-box__header .el-message-box__title span
+{
+  font-size: 16px;
+  font-weight: 700;
+  color: #684029;
+}
+.biangeren .el-message-box__content,
+.chageren .el-message-box__content,
+.youhuijuan .el-message-box__content
+{
+  border-top: 1px solid rgba(204, 204, 204, 0.51);
+}
+.biangeren .el-message-box__content p,
+.chageren .el-message-box__content p,
+.youhuijuan  .el-message-box__content p
+{
+  padding: 0  15px;
+}
+  .biangeren .el-button--default,
+  .chageren .el-button--default,
+  .youhuijuan .el-button--default
+{
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0;
+}
+.xingming,.xinbie,.zhu,.youhuijuan .miaoshu {
+  margin-left: 27px;
+}
+.chageren .vipp{
+  margin-left:7px;
+}
+.ke{
+  margin-left: 13px;
+}
+.biangeren #productForm #productTp,
+.chageren #productForm #jiname,
+.chageren #productForm #productTp,
+.youhuijuan  #productForm #productTp
+{
+  width: 50px;
+}
+.chageren .zuo,.chageren .you{
+  float: left;
+}
+.youhuijuan  .miaoshu textarea{
+  margin-left: 20px;
+  height: 80px;
+  padding: 1px;
+  font: 400 13.3333px Arial;
+}
+.biangeren .vipp{
+  margin-left: 6px;
+}
+

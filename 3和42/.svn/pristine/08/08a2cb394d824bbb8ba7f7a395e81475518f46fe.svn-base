@@ -1,0 +1,227 @@
+.clearfix:after {
+content: '';
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+.bianzengcha,.chakan2{
+width: 450px;
+height: 369px;
+padding: 0;
+border-radius:15px ;
+}
+.shanzeng{
+width: 350px;
+height: 164px;
+padding: 0;
+font-size: 15px;
+border-radius:15px ;
+}
+.bianzengcha .el-message-box__content,
+.shanzeng .el-message-box__content,
+.chakan2 .el-message-box__content
+{
+padding: 0;
+}
+.bianzengcha .el-message-box__header,
+.shanzeng .el-message-box__header,
+.chakan2 .el-message-box__header
+{
+padding: 0;
+height: 40px;
+line-height: 40px;
+}
+.bianzengcha .el-message-box__title,
+.shanzeng .el-message-box__title,
+.chakan .el-message-box__title
+{
+line-height: 40px;
+margin-left: 25px;
+}
+
+.bianzengcha .el-message-box__content,
+.shanzeng .el-message-box__content,
+.chakan2 .el-message-box__content
+{
+border-top: 1px solid rgba(204, 204, 204, 0.51);
+}
+.bianzengcha .el-message-box__btns,
+.chakan2 .el-message-box__btns
+{
+padding: 0;
+margin-top: 20px;
+margin-bottom: 15px;
+
+margin-right: 25px;
+}
+
+.zenjia{
+font-size: 14px;
+}
+.zenjia input{
+width: 196px;
+height: 21px;
+}
+.zenjia div
+{
+margin-top: 20px;
+margin-left: 36px;
+margin-right: 36px;
+}
+.zenjia textarea{
+width: 305px;
+height: 72px;
+resize:none
+}
+.zenjia select{
+width: 120px;
+height: 25px;
+}
+.miaoshu{
+margin-left: 1px;
+}
+.miaoshu span,
+.miaoshu textarea,
+.tijiao span,
+.tijiao p
+{
+float: left;
+}
+.tijiao span{
+margin-top: 3px;
+}
+.tijiao p{
+margin: 0;
+display: inline-block;
+position: relative;
+width: 80px;
+height: 31px;
+background-color: #409EFF;
+text-align: center;
+line-height: 31px;
+color: white;
+font-size: 13px;
+border-radius: 3px;
+}
+.tijiao p input{
+display: inline-block;
+position: absolute;
+width: 80px;
+height: 31px;
+top: 0;
+left: 0;
+opacity: 0;
+}
+.shanchu{
+padding: 20px 36px 20px 36px;
+}
+.shanchu p{
+margin-left: 8px;
+}
+.shanchu img{
+width: 25px;
+height: 25px;
+}
+.shanchu img,
+.shanchu p
+{
+float: left;
+}
+.shanzeng .el-message-box__btns{
+padding-bottom: 15px;
+}
+.el-message-box__title{
+width: 96.430967%;
+}
+.tijiao img{
+width: 46px;
+height: 42px;
+margin-top: -7px;
+}
+@media screen and (max-width: 1366px){
+.bianzengcha{
+height: 63%;
+}
+.chakan2{
+height: 416px;
+}
+}
+@media screen and (max-width: 1920px){
+.bianzengcha{
+height: 53.68%;
+}
+.chakan2{
+height: 414px;
+}
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#productForm #productText,
+#productForm #productPrice,
+#productForm #productTp {
+  height: 25px;
+  width: 200px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  outline: none;
+}
+#productForm label,
+#productForm #productTp option
+{
+  color: #684029;
+}
+#productForm #productImg {
+  margin-left: 10px;
+}
+
+#productForm #productDescription {
+  width: 286px;
+  resize:none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px;
+  float: right;
+  height: 80px;
+}
+
+.addProductModel {
+  border-radius: 15px;
+}
+.addProductModel .el-message-box__header .el-message-box__title span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #684029;
+}
+
+
+
+.addProductModel .el-message-box__content
+  /*.shanzeng .el-message-box__content,*/
+  /*.chakan2 .el-message-box__content*/
+{
+  border-top: 1px solid rgba(204, 204, 204, 0.51);
+}
+
+.addProductModel .el-message-box__content p {
+  padding: 0  15px;
+}
+.addProductModel .el-button--default {
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0;
+}
+
+.el-message-box__title span {
+  font-size: 18px;
+  color: #684029;
+}
